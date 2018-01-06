@@ -1,7 +1,6 @@
 #!/usr/bin/python
 #coding: utf-8
 #creator: laps3
-#contact: Telegram:@lapselapse
 import telepot
 import time
 from datetime import datetime
