@@ -166,9 +166,7 @@ def handle(msg):
             msg = decode_and_decode(browser, **config[string[0]])
             bot.sendMessage(chat_id, f"Result: {msg}", reply_to_message_id=msgid)
             print(cyanClaro + '[+] Decode or encode Success')
-        elif texto == '/ban':
-            bot.kickChatMember(uid, reply_to_message_id=msgid)
-            bot.sendMessage(chat_id, 'User banned') 
+            
     elif msg.get('new_chat_member'):
         print('[+] New user')
         bot.sendMessage(chat_id, 'Wellcome')
